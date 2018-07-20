@@ -53,13 +53,3 @@ export class AppComponent {
     ons.notification.toast('Hello, world!', {timeout: 2000});
   }
 }
-
-@NgModule({
-  imports: [OnsenModule],
-  declarations: [AppComponent],
-  bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
-})
-class AppModule { }
-
-platformBrowserDynamic().bootstrapModule(AppModule);
